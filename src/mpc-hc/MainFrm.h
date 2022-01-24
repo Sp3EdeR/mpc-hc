@@ -1284,6 +1284,9 @@ protected:
 
     void SubtitlesSave(const TCHAR* directory = nullptr, bool silent = false);
 
+    void OnSizingFixWndToVideo(UINT nSide, LPRECT lpRect, bool bCtrl = false);
+    void OnSizingSnapToScreen(UINT nSide, LPRECT lpRect, bool bCtrl = false);
+
 public:
     afx_msg UINT OnPowerBroadcast(UINT nPowerEvent, LPARAM nEventData);
     afx_msg void OnSessionChange(UINT nSessionState, UINT nId);
