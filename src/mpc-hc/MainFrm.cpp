@@ -380,11 +380,13 @@ BEGIN_MESSAGE_MAP(CMainFrame, CFrameWnd)
     ON_COMMAND(ID_VIEW_MPCTHEME, OnViewMPCTheme)
     ON_UPDATE_COMMAND_UI(ID_VIEW_MPCTHEME, OnUpdateViewMPCTheme)
     ON_COMMAND(ID_VIEW_PRESETS_MINIMAL, OnViewMinimal)
-    ON_UPDATE_COMMAND_UI(ID_VIEW_PRESETS_MINIMAL, OnUpdateViewMinimal)
+    ON_UPDATE_COMMAND_UI(ID_VIEW_PRESETS_MINIMAL, OnUpdateViews)
     ON_COMMAND(ID_VIEW_PRESETS_COMPACT, OnViewCompact)
-    ON_UPDATE_COMMAND_UI(ID_VIEW_PRESETS_COMPACT, OnUpdateViewCompact)
+    ON_UPDATE_COMMAND_UI(ID_VIEW_PRESETS_COMPACT, OnUpdateViews)
     ON_COMMAND(ID_VIEW_PRESETS_NORMAL, OnViewNormal)
-    ON_UPDATE_COMMAND_UI(ID_VIEW_PRESETS_NORMAL, OnUpdateViewNormal)
+    ON_UPDATE_COMMAND_UI(ID_VIEW_PRESETS_NORMAL, OnUpdateViews)
+    ON_COMMAND(ID_VIEW_PRESETS_MEDIACENTER, OnViewMediaCenter)
+    ON_UPDATE_COMMAND_UI(ID_VIEW_PRESETS_MEDIACENTER, OnUpdateViews)
     ON_COMMAND(ID_VIEW_FULLSCREEN, OnViewFullscreen)
     ON_COMMAND(ID_VIEW_FULLSCREEN_SECONDARY, OnViewFullscreenSecondary)
     ON_UPDATE_COMMAND_UI(ID_VIEW_FULLSCREEN, OnUpdateViewFullscreen)
@@ -7693,29 +7695,35 @@ void CMainFrame::OnViewMinimal()
 {
     SetCaptionState(MODE_BORDERLESS);
     m_controls.SetToolbarsSelection(CS_NONE, true);
-}
-
-void CMainFrame::OnUpdateViewMinimal(CCmdUI* pCmdUI)
-{
+    auto& s = AfxGetAppSettings();
+    s.bHideWindowedControls = false;
 }
 
 void CMainFrame::OnViewCompact()
 {
     SetCaptionState(MODE_FRAMEONLY);
     m_controls.SetToolbarsSelection(CS_SEEKBAR, true);
-}
-
-void CMainFrame::OnUpdateViewCompact(CCmdUI* pCmdUI)
-{
+    auto& s = AfxGetAppSettings();
+    s.bHideWindowedControls = false;
 }
 
 void CMainFrame::OnViewNormal()
 {
+    auto& s = AfxGetAppSettings();
+    s.bHideWindowedControls = false;
     SetCaptionState(MODE_SHOWCAPTIONMENU);
     m_controls.SetToolbarsSelection(CS_SEEKBAR | CS_TOOLBAR | CS_STATUSBAR, true);
 }
 
-void CMainFrame::OnUpdateViewNormal(CCmdUI* pCmdUI)
+void CMainFrame::OnViewMediaCenter()
+{
+    auto& s = AfxGetAppSettings();
+    s.bHideWindowedControls = true;
+    SetCaptionState(MODE_BORDERLESS);
+    m_controls.SetToolbarsSelection(CS_SEEKBAR | CS_TOOLBAR | CS_STATUSBAR, true);
+}
+
+void CMainFrame::OnUpdateViews(CCmdUI* pCmdUI)
 {
 }
 
