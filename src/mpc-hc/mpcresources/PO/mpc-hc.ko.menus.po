@@ -154,6 +154,10 @@ msgctxt "ID_VIEW_PRESETS_NORMAL"
 msgid "&Normal"
 msgstr "기본(&N)"
 
+msgctxt "ID_VIEW_PRESETS_MEDIACENTER"
+msgid "Media Center"
+msgstr ""
+
 msgctxt "ID_VIEW_MPCTHEME"
 msgid "Dark Theme (restart)"
 msgstr "다크 테마(다시 시작)"

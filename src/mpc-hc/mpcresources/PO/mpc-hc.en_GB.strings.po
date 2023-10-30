@@ -2039,6 +2039,10 @@ msgctxt "IDS_AG_VIEW_NORMAL"
 msgid "View Normal"
 msgstr "View Normal"
 
+msgctxt "IDS_AG_VIEW_MEDIACENTER"
+msgid "View Media Center"
+msgstr ""
+
 msgctxt "IDS_AG_FULLSCREEN"
 msgid "Fullscreen"
 msgstr "Fullscreen"

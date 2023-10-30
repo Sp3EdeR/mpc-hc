@@ -155,6 +155,10 @@ msgctxt "ID_VIEW_PRESETS_NORMAL"
 msgid "&Normal"
 msgstr "Normale"
 
+msgctxt "ID_VIEW_PRESETS_MEDIACENTER"
+msgid "Media Center"
+msgstr ""
+
 msgctxt "ID_VIEW_MPCTHEME"
 msgid "Dark Theme (restart)"
 msgstr "Tema Scuro (richiede riavvio)"
