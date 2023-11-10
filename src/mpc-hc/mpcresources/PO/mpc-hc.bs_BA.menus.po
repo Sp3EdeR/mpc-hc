@@ -153,6 +153,10 @@ msgctxt "ID_VIEW_PRESETS_NORMAL"
 msgid "&Normal"
 msgstr "&Normalni"
 
+msgctxt "ID_VIEW_PRESETS_MEDIACENTER"
+msgid "Media Center"
+msgstr ""
+
 msgctxt "ID_VIEW_FULLSCREEN"
 msgid "F&ull Screen"
 msgstr "Na cijeli ekran"

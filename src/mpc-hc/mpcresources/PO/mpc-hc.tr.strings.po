@@ -2065,6 +2065,10 @@ msgctxt "IDS_AG_VIEW_NORMAL"
 msgid "View Normal"
 msgstr "Normal Ayrıntı"
 
+msgctxt "IDS_AG_VIEW_MEDIACENTER"
+msgid "View Media Center"
+msgstr ""
+
 msgctxt "IDS_AG_FULLSCREEN"
 msgid "Fullscreen"
 msgstr "Tam Ekran"

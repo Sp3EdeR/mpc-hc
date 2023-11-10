@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: MPC-HC\n"
-"POT-Creation-Date: 2023-11-03 23:11:00+0000\n"
+"POT-Creation-Date: 2023-11-10 08:05:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -147,6 +147,10 @@ msgstr ""
 
 msgctxt "ID_VIEW_PRESETS_NORMAL"
 msgid "&Normal"
+msgstr ""
+
+msgctxt "ID_VIEW_PRESETS_MEDIACENTER"
+msgid "Media Center"
 msgstr ""
 
 msgctxt "ID_VIEW_FULLSCREEN"
