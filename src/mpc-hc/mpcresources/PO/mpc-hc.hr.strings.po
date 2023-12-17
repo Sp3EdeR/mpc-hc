@@ -2064,6 +2064,10 @@ msgctxt "IDS_AG_VIEW_NORMAL"
 msgid "View Normal"
 msgstr "Prikaži normalno"
 
+msgctxt "IDS_AG_VIEW_MEDIACENTER"
+msgid "View Media Center"
+msgstr ""
+
 msgctxt "IDS_AG_FULLSCREEN"
 msgid "Fullscreen"
 msgstr "Cijeli zaslon"
