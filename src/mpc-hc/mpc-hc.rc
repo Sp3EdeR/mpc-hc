@@ -1556,6 +1556,7 @@ BEGIN
             MENUITEM "&Minimal",                    ID_VIEW_PRESETS_MINIMAL
             MENUITEM "&Compact",                    ID_VIEW_PRESETS_COMPACT
             MENUITEM "&Normal",                     ID_VIEW_PRESETS_NORMAL
+            MENUITEM "Media Center",                ID_VIEW_PRESETS_MEDIACENTER
         END
         MENUITEM SEPARATOR
         MENUITEM "F&ull Screen",                ID_VIEW_FULLSCREEN
@@ -1954,6 +1955,7 @@ BEGIN
                 MENUITEM "&Minimal",                    ID_VIEW_PRESETS_MINIMAL
                 MENUITEM "&Compact",                    ID_VIEW_PRESETS_COMPACT
                 MENUITEM "&Normal",                     ID_VIEW_PRESETS_NORMAL
+                MENUITEM "Media Center",                ID_VIEW_PRESETS_MEDIACENTER
             END
         END
         POPUP "R&enderer Settings"
@@ -2079,6 +2081,7 @@ BEGIN
                 MENUITEM "&Minimal",                    ID_VIEW_PRESETS_MINIMAL
                 MENUITEM "&Compact",                    ID_VIEW_PRESETS_COMPACT
                 MENUITEM "&Normal",                     ID_VIEW_PRESETS_NORMAL
+                MENUITEM "Media Center",                ID_VIEW_PRESETS_MEDIACENTER
             END
             MENUITEM SEPARATOR
             MENUITEM "F&ull Screen",                ID_VIEW_FULLSCREEN
@@ -3197,6 +3200,7 @@ BEGIN
     IDS_AG_VIEW_MINIMAL     "View Minimal"
     IDS_AG_VIEW_COMPACT     "View Compact"
     IDS_AG_VIEW_NORMAL      "View Normal"
+    IDS_AG_VIEW_MEDIACENTER "View Media Center"
     IDS_AG_FULLSCREEN       "Fullscreen"
     IDS_MPLAYERC_39         "Fullscreen (w/o res.change)"
     IDS_AG_ZOOM_AUTO_FIT    "Zoom Auto Fit"
