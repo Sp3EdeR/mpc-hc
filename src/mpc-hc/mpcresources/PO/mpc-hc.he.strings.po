@@ -2004,6 +2004,10 @@ msgctxt "IDS_AG_VIEW_NORMAL"
 msgid "View Normal"
 msgstr "הצגה רגילה"
 
+msgctxt "IDS_AG_VIEW_MEDIACENTER"
+msgid "View Media Center"
+msgstr ""
+
 msgctxt "IDS_AG_FULLSCREEN"
 msgid "Fullscreen"
 msgstr "מסך מלא"
