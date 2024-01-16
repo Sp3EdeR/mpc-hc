@@ -1103,6 +1103,8 @@
 #define IDS_AG_ZOOM_SUB                 33459
 #define IDS_SEEKBAR_HOVER_PREVIEW       33460
 #define IDS_SEEKBAR_HOVER_TOOLTIP       33461
+#define ID_VIEW_PRESETS_MEDIACENTER     33462
+#define IDS_AG_VIEW_MEDIACENTER         33463
 #define ID_RECENT_FILE_START            34000
 #define ID_RECENT_FILE_END              34999
 #define IDS_MFMT_AVI                    39001
@@ -1736,7 +1738,7 @@
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        20076
-#define _APS_NEXT_COMMAND_VALUE         33462
+#define _APS_NEXT_COMMAND_VALUE         33464
 #define _APS_NEXT_CONTROL_VALUE         22094
 #define _APS_NEXT_SYMED_VALUE           24052
 #endif
