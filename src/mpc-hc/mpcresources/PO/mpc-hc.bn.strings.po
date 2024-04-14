@@ -2112,6 +2112,10 @@ msgctxt "IDS_AG_VIEW_NORMAL"
 msgid "View Normal"
 msgstr "সাধারণ পরিবেশন"
 
+msgctxt "IDS_AG_VIEW_MEDIACENTER"
+msgid "View Media Center"
+msgstr ""
+
 msgctxt "IDS_AG_FULLSCREEN"
 msgid "Fullscreen"
 msgstr "ফুলস্ক্রীন"
