@@ -589,6 +589,7 @@ static constexpr wmcmd_base default_wmcmds[] = {
     { ID_VIEW_PRESETS_MINIMAL,            '1', FVIRTKEY | FNOINVERT,                    IDS_AG_VIEW_MINIMAL },
     { ID_VIEW_PRESETS_COMPACT,            '2', FVIRTKEY | FNOINVERT,                    IDS_AG_VIEW_COMPACT },
     { ID_VIEW_PRESETS_NORMAL,             '3', FVIRTKEY | FNOINVERT,                    IDS_AG_VIEW_NORMAL },
+    { ID_VIEW_PRESETS_MEDIACENTER,        '4', FVIRTKEY | FNOINVERT,                    IDS_AG_VIEW_MEDIACENTER },
     { ID_VIEW_FULLSCREEN,           VK_RETURN, FVIRTKEY | FALT | FNOINVERT,             IDS_AG_FULLSCREEN, 0, wmcmd::LDBLCLK },
     { ID_VIEW_FULLSCREEN_SECONDARY,    VK_F11, FVIRTKEY | FNOINVERT,                    IDS_MPLAYERC_39 },
     { ID_VIEW_ZOOM_25,               VK_OEM_3, FVIRTKEY | FALT | FNOINVERT,             IDS_AG_ZOOM_25 }, /* VK_OEM_3 is `~ on US keyboards*/

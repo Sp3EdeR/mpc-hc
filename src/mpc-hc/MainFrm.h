@@ -959,11 +959,10 @@ public:
     afx_msg void OnViewDebugShaders();
     afx_msg void OnUpdateViewDebugShaders(CCmdUI* pCmdUI);
     afx_msg void OnViewMinimal();
-    afx_msg void OnUpdateViewMinimal(CCmdUI* pCmdUI);
     afx_msg void OnViewCompact();
-    afx_msg void OnUpdateViewCompact(CCmdUI* pCmdUI);
     afx_msg void OnViewNormal();
-    afx_msg void OnUpdateViewNormal(CCmdUI* pCmdUI);
+    afx_msg void OnViewMediaCenter();
+    afx_msg void OnUpdateViews(CCmdUI* pCmdUI);
     afx_msg void OnViewFullscreen();
     afx_msg void OnViewFullscreenSecondary();
     afx_msg void OnUpdateViewFullscreen(CCmdUI* pCmdUI);
